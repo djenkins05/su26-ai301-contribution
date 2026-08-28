@@ -1,6 +1,6 @@
-# Contribution [#1]: [Issue Title]
+# Contribution [#1]: Add Fear and Greed Crypto Sentiment Index Tool
 
-**Contribution Number:** 
+**Contribution Number:** 1
 **Student:** Dakarri Jenins  
 **Issue:** https://github.com/tarunjandra/agent-tools-mcp-hub/issues/101
 **Status:** Phase I 
