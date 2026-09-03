@@ -10,13 +10,13 @@
 ## Why I Chose This Issue
 
 I chose this issue because it aligns with my experience in Python and a goal of mine: 
-strengthening my skills with APIs and data processing. I'm also genuinely interested in 
+strengthening my skills with APIs and data processing. I'm also really interested in 
 cryptocurrency and financial data, so building a tool that retrieves the Crypto Fear and 
 Greed Index felt like a natural fit. It’s a great opportunity to work with a real public 
 API while contributing something useful to the project.
 
 I'm interested in this because:
-1. I have experience programming in Python and wanted to apply those 
+1. I have experience programming in Python and want to apply those 
    skills to more real-world contributions rather than personal projects
 2. I want to build more experience working with public APIs and 
    handling JSON responses
@@ -38,19 +38,32 @@ project's required tool structure and validation process.
 
 ### Problem Description
 
-[In your own words, what's broken or missing?]
+The project currently doesn't have a tool for retrieving cryptocurrency market sentiment data. 
+The goal of this issue is to create a Python tool that uses the public Alternative.me API to 
+fetch the current Crypto Fear and Greed Index score and historical sentiment ratings. 
+The tool should allow users to specify how many days of historical data they want, with a default of 7 and 
+then up to a maximum of 30 days.
 
 ### Expected Behavior
 
-[What should happen?]
+The tool should accept a days parameter, defaulting to 7 and allowing a maximum of 30 days. 
+It should retrieve data from the Alternative.me API and return the current Fear and Greed Index score, 
+its corresponding classification(like extreme fear and fear), and the historical sentiment trend for the 
+requested number of days. The tool should also include the required tool.py, metadata.json, requirements.txt, and 
+README.md files, while passing python3 scripts/validate_tools.py.
 
 ### Current Behavior
 
-[What actually happens?]
+Currently, there isn't a Crypto Fear and Greed Index tool in the project. As a result, users cannot retrieve 
+the current cryptocurrency sentiment score or historical sentiment data through the project's existing tools.
 
 ### Affected Components
 
-[Which parts of the codebase are involved?]
+The main components affected would be the new tools/crypto_fear_greed_index/ directory and its associated files: 
+tool.py for the API request and data processing, metadata.json for tool configuration and metadata,
+requirements.txt for dependencies, and README.md for documentation. The project's tool validation process, 
+scripts/validate_tools.py, will also be used to verify that the new tool follows the required structure and conventions 
+that were previously established.
 
 ---
 
