@@ -9,7 +9,28 @@
 
 ## Why I Chose This Issue
 
-[1-2 paragraphs explaining why this issue interests you, how it matches your skills/learning goals, what you hope to learn]
+I chose this issue because it aligns with my experience in Python and a goal of mine: 
+strengthening my skills with APIs and data processing. I'm also genuinely interested in 
+cryptocurrency and financial data, so building a tool that retrieves the Crypto Fear and 
+Greed Index felt like a natural fit. It’s a great opportunity to work with a real public 
+API while contributing something useful to the project.
+
+I'm interested in this because:
+1. I have experience programming in Python and wanted to apply those 
+   skills to more real-world contributions rather than personal projects
+2. I want to build more experience working with public APIs and 
+   handling JSON responses
+3. The task is self-contained, which makes it a good 
+   scope for a focused first/early contribution. While still
+   allowing me to learn and grow.
+5. I'm curious how historical data can be retrieved, processed, and 
+   presented as a multi-day trend, which is something this task requires
+
+From the issue description, the goal is to create a Python tool that 
+retrieves the current Crypto Fear and Greed Index score along with 
+historical sentiment ratings. My contribution will return the current 
+score(from 1-100), its classification, and a trend history, while sticking to the 
+project's required tool structure and validation process.
 
 ---
 
